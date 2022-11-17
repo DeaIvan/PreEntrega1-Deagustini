@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Lobster+Two:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Rubik+Glitch&family=Signika+Negative:wght@500&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+span {
+  font-size: 1.8rem;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #f5f3f4;
+}
+
+a:hover .number{
+  color: #800e13;
+  background-color: #ffc400;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #800e13;
+  width: 100%;
+}
+
+nav .logo{
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 5rem;
+}
+
+nav .logo span{
+  color: #ffc400;
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 5rem;
+}
+
+.enlaces {
+  font-family: 'Exo 2', sans-serif;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.8rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: all 0.3s;
+}
+nav ul li a:hover {
+  color: #ffc400;
+  cursor: pointer;
+  background-size: 100% 1px;
+  letter-spacing: 2px;
+  font-size: 1.9rem;
+}
+
+.material-symbols-rounded{
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.msj{
+  padding: 1rem;
+  font-size: 1.8rem;
+  min-height: 100vh;
+  background-color: #f5f3f4;
+}
+
+.number{
+  font-size: 1.5rem;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: #ffc400;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #ffc40050;
+  top: 0.5rem;
+  right: 15rem;
+}
+
+.cart{
+  display: flex;
+  justify-content: end;
+}
